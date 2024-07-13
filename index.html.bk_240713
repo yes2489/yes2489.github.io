@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 메타데이터 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YES</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        h1 {
+            display: inline;
+        }
+    </style>
+</head>
+<!-- 웹 상에 보여질 내용-->
+<body>
+    <h1>Eunseo Yang</h1>
+    <h2 style="display: inline;">SSAFY12 - SEOUL07</h2>
+    <ol>
+        <li>Name :
+            <ul>
+                <li>내부</li>
+            </ul>
+        </li>
+        <li>Age : 
+            <ul>
+                <li>내부</li>
+            </ul>
+        </li>
+        <li>list data : 
+            <ul>
+                <li>내부</li>
+            </ul>
+        </li>
+    </ol>
+
+    <a href="https://github.com/ssafy12-seoul07/today">
+        <img src="./assets/img/image.jpg" alt="뉴진스 민지">
+    </a>
+
+    <img src="https://i.namu.wiki/i/BkYYZlR90zQhgRZxXY1eDgRGO9RwOq_vMk1LOO2FdMxxHjcGml5-B8R10Y5RalGf9YIXV6YLAxR0M8DO-8b-dw.webp" alt="샤이니 태민">
+</body>
+</html>
