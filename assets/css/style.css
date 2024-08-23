@@ -1,6 +1,71 @@
-h1 {
-    color : #5ed0f3;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+body {
+    background-color: rgb(247, 252, 241);
+    font-family: "Noto Sans KR", sans-serif;
+    padding-top: 2rem;
 }
-h2 {
-    color : orange;
+
+/* header start */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
 }
+
+header img.yes{   
+    width: 13em;
+    height: 15em,;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+}
+
+header .container .box1, .box2 * {
+    margin: 0 0.4rem;
+}
+/* header end */
+
+.intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: auto;
+}
+
+.name {
+    font-weight: bolder;
+    line-height: 2em;
+}
+
+/* table */
+table{
+    font-weight: 400;
+    text-align: left;
+}
+
+td{
+    width: 330px;
+}
+
+.tech {
+    background-color: rgba(222, 240, 143, 0.555);
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: rgba(222, 240, 143, 0.555);
+    border-radius: 12px;
+    font-weight:500;
+}
+
+.gray{
+    color: gray;
+    font-weight: 400;
+}
+
